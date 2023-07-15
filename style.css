@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 40px;
+    background-color: #f7f7f7;
+    color: #080808;
+    font-family: 'Bitter', serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.contact-info,
+.summary,
+.skills,
+.lang,
+.experience,
+.eduaction,
+.certificate,
+.projects,
+.activities {
+    margin-bottom: 14px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #21212133;
+}
+
+.contact-info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3px
+}
+
+.contact-info ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-info ul li span:first-of-type {
+    display: flex;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #551A8B
+}
+
+.summary h2,
+.skills h2,
+.experience h2,
+.eduaction h2,
+.certificate h2,
+.projects h2,
+.activities h2,
+.projects h2 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.summary p {
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.skills .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skills .content div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.skills .content div p {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.arrow {
+    display: flex;
+}
+
+.lang p {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.experience h3,
+.certificate h4,
+.activities h4,
+.projects h4 {
+    display: flex;
+}
+
+.experience div {
+    margin: 10px 0;
+}
+
+.experience p {
+    font-size: 18px;
+}
+
+.eduaction h4,
+.projects h4 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 18px;
+}
+
+.eduaction p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.certificate h4,
+.activities h4 {
+    font-size: 18px;
+}
+
+.certificate p,
+.activities p,
+.projects p {
+    font-size: 18px;
+}
+
+.certificate div,
+.eduaction div,
+.projects div {
+    margin: 20px 0;
+}
+
+.certificate {
+    border-bottom: 0;
+}
+
+button {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 18px;
+}
